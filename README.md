@@ -47,3 +47,9 @@ Ubuntu desktop was chosen as it is a common and well documented open source
 desktop OS.
 
 The static IPv4 configuration was set up using the GUI.
+
+### DNS
+
+The gateway router does not provide a DNS resolver. To allow the desktop to
+access websites, it was necessary to configure a DNS server. A public
+recursive DNS server, `8.8.8.8` was provided in the configuration.
