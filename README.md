@@ -11,6 +11,9 @@ one NAT.
 
 ## The router
 
+Ubuntu was chosen as a server OS because it is capable of what we need, well
+documented and has a predictable maintenance and release cadence.
+
 The router was installed from the Ubuntu supplied ISO image.
 
 The router's network interfaces were all configured via Netplan. The external
@@ -31,9 +34,16 @@ and on the classroom's connection, before the publicly addressed Internet.
 
 ## TrueNAS
 
+TrueNAS was chosen as an application server to try a non-Linux based open
+source OS. It comes with a web interface built making it easy for us to
+observe working from the desktop.
+
 The static IPv4 configuration was set up using the text mode interface offered
 during the initial install from the ISO image.
 
 ## Ubuntu desktop
+
+Ubuntu desktop was chosen as it is a common and well documented open source
+desktop OS.
 
 The static IPv4 configuration was set up using the GUI.
